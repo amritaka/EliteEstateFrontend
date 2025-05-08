@@ -1,0 +1,36 @@
+.cardComponentcontain{
+    height: auto;
+    width: 100%;
+    border-radius:20px ;
+    background-color: rgb(243, 243, 243);
+    /* border: 1px solid red; */
+    box-shadow: 2px 2px 5px  gray;
+    text-align: center;
+}
+
+.myCarImg{
+    border-radius: 25px;
+    padding: 10px;
+    transition:.2s ease-in-out;
+}
+.myCarImg:hover{
+   transform: scale(1.05);
+   transition:.2s ease-in-out;
+}
+.buttonbox{
+    /* background-color: aqua; */
+    margin-top: 4vw;
+    height: 8vh;
+    width: 90%;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.but{
+    height: 5vh;
+    width: 30%;
+}
+.cardComponentcontain h3{
+    text-transform: capitalize;
+}

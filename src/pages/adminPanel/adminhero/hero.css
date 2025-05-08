@@ -1,0 +1,58 @@
+.herobox{
+    background:linear-gradient(rgba(0, 0, 0, 0.482),rgba(0, 0, 0, 0.482),rgba(0, 0, 0, 0.51)), url(/public/image/heroadmin.png);
+   background-size: cover;
+   background-position:right;
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow-y: hidden;
+}
+
+.herotextbox{
+    
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  
+}
+.heroH2{
+    font-style: italic;
+    color: rgb(255, 147, 47);
+}
+.head h1{
+
+    /* background-color: aliceblue; */
+    text-align: center;
+    margin-bottom: -8px;
+color:rgb(86, 23, 23);
+font-size: 50px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 800;
+-webkit-text-stroke: 1px rgb(86, 23, 23);
+color: rgba(86, 23, 23, 0.425);
+}
+.herotextbox h2{
+    /* background-color: aliceblue; */
+    text-align: center;
+    margin-bottom: -8px;
+color:rgb(86, 23, 23);
+font-size: 50px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 800;
+-webkit-text-stroke: 2px rgb(80, 21, 21);
+color: rgb(255, 218, 150);
+}
+.para{
+    margin-top: 30px;
+    color:rgb(255, 241, 216);
+    font-size: 30px;
+    text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

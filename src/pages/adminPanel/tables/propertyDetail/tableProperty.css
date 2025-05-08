@@ -1,0 +1,16 @@
+
+.propertyTableStatus{
+    /* background-color: aqua; */
+    margin: 5px;
+    height: 6vh;
+    font-size: 1vw;
+    background-color: white;
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+.propertyTableStatus:hover{
+    background-color: orange;
+    border: 2px solid white;
+    border-radius: 10px;
+    
+}

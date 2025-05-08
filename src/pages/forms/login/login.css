@@ -1,0 +1,66 @@
+.logbody{
+
+    height: 100vh;
+    width: 100%;
+    background-image: url(/public/slidepics/slide6.jpg);
+    background-size: cover;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+
+}
+.loghead h1{
+    font-size: 50px;
+    font-weight: 650;
+    color: orange;
+}
+
+.logcontainer{
+    height: auto;
+    width: 350px;
+    border: 2px solid rgb(180, 180, 180);
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.456);
+    padding: 40px;
+}
+.logform{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    
+}
+.logform input{
+    border-radius: 20px ;
+    height: 6vh;
+    padding-left: 10px;
+    box-shadow: 4px 4px 7px;
+    background-color: #F8F9FD;
+}
+
+
+
+
+.LoginBtn span{
+    color: orange;
+    font-size: 20px;
+    /* border: 2px solid orange; */
+}
+.LoginBtn{
+    border: 2px solid orange;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 20px;
+}
+.LoginBtn:hover{
+    background-color: orange;
+   
+}
+.LoginBtn span:hover{
+    color: white;
+
+}
+.Linkegister{
+    color: orange;
+}

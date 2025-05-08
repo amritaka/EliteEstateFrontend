@@ -1,0 +1,58 @@
+.servicediv{
+    background-color:white;
+    height: 60vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+
+  
+}
+.buydiv{
+    /* background-color:whitesmoke; */
+    height: 40vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    text-align: center;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+
+}
+.buy
+{
+    font-size: 20px;
+    font-weight: bold;
+    color:#3F3A64;
+ 
+
+}
+.buy:hover
+{
+   color: orange;
+ 
+
+}
+.pp
+{
+    color: rgba(0, 0, 0, 0.27);
+}
+
+
+
+.readmore
+{
+    font-weight: 0;
+    color:#3F3A64;
+
+    text-decoration: none;
+}
+.readmore:hover
+{
+    color: orange;
+}

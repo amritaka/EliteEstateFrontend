@@ -1,0 +1,45 @@
+.listbox{
+   height: auto ;
+   width: 100%;
+    display: flex;
+    /* background-color: aquamarine; */
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(310px,auto));
+    /* border: 2px solid red; */
+    padding: 0;
+    gap: 60px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.listCard{
+    height: auto;
+    width: 80%;
+    /* background-color: aqua; */
+    margin: 20px;
+}
+.options-prop
+{
+
+    border: none;
+    outline: none;
+    color: white;
+    width: 10%;
+    margin-left: 690px;
+    border-radius: 30px;
+    margin-top: 3vh;
+    padding: 10px;
+    background-color: orange;
+    position: relative;
+    text-align: center;
+}
+
+.sort
+{
+    position: absolute;
+    left: 620px;
+    top: 105px;
+    font-size: 20px;
+
+}

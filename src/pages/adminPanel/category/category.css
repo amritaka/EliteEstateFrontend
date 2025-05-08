@@ -1,0 +1,54 @@
+.categorybox{
+background-color:white;
+height: 100vh;
+display: flex;
+ flex-direction: row;
+
+}
+.categoryimgbox{
+    background-color: darkslateblue;
+    height: 90vh;
+    width: 80%;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.categoryformbox{
+    background-color: white;
+    height: 90vh;
+    width: 60%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.categoryForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 80vh;
+}
+
+.catButton{
+    width: 80%;
+    background-color: darkslateblue;
+}
+.catH1{
+    color: darkslateblue;
+    text-shadow: 2px 2px gray;
+}
+.catLabel{
+    margin-left: 200px;
+    color: darkslateblue;
+    font-weight: bold;
+}
+.catSelect{
+    margin-left: 10px;
+    color: darkslateblue;
+}
+.catH3{
+    color: white;
+    font-size: 4vw;
+}

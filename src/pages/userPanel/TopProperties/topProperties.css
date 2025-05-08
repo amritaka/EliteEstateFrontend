@@ -1,0 +1,40 @@
+section{
+    height: auto;
+}
+.TopPropertyContainer {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2rem;
+
+}
+
+.TopPropertyheadingbox {
+    height: 10vh;
+    width: 100%;
+    margin-top: 2rem;
+text-align: center;
+margin-top: 2vw;
+/* margin-bottom: 20px; */
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-shadow: 1px 1px 3px orange;
+}
+.TopPropertyheadingbox h1{
+    margin-bottom: 10px;
+}
+
+.Topcardbox{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    padding: 10px;
+    gap: 20px;
+    height: auto;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: .5px .5px 2px black;
+
+
+}

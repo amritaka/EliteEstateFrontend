@@ -1,0 +1,120 @@
+
+.prop
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ background-image: url(/slidepics/slide4.jpg);
+ background-size: 100% 100%;
+ background-position: center;
+ margin-top: -4vh;
+}
+.propertyform {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vh;
+    justify-content: space-evenly;
+backdrop-filter: blur(4px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
+ 
+    /* background-color: rgba(0, 0, 0,0.456); */
+    background-color: transparent;
+}
+
+.headDiv h1{
+    
+    /* background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(136, 45, 253, 1) 100%); */
+    /* width: 100%; */
+   font-weight: 600;
+   font-size: 50px;
+   color: white;
+    margin-top: -4vh;
+    text-align: center;
+    border-radius: 10px;
+ 
+}
+
+.myDiv {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    width: 60%;
+    /* justify-content: space-evenly; */
+}
+.regBtn {
+    background: transparent;
+    position: relative;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgb(40, 144, 241);
+    border-radius: 25px;
+    outline: none;
+    overflow: hidden;
+    color: rgb(40, 144, 241);
+    transition: color 0.3s 0.1s ease-out;
+    text-align: center;
+}
+.regBtn span {
+    margin: 10px;
+}
+
+.regBtn::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    content: '';
+    border-radius: 50%;
+    display: block;
+    width: 20em;
+    height: 20em;
+    left: -5em;
+    text-align: center;
+    transition: box-shadow 0.5s ease-out;
+    z-index: -1;
+}
+
+.regBtn:hover {
+    color: #fff;
+    border: 1px solid rgb(40, 144, 241);
+    background-color: rgb(40, 144, 241);
+
+}
+
+.regBtn:hover::before {
+    box-shadow: inset 0 0 0 10em rgb(40, 144, 241);
+}
+
+.reginput{
+    border-radius: 20px;
+    width: 60%;
+    border: 1px solid;
+    padding: 10px 10px;
+}
+.RegSelect{
+    width: 60%;
+    border-radius: 20px;
+    /* margin-left: 15px; */
+    /* margin-bottom: 10px; */
+    padding: 10px 10px;
+    
+}
+
+input[type='file']::before {
+    content: ' property Image';
+    color: black;
+    margin-right: 30px;
+  }

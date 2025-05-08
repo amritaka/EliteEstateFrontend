@@ -1,0 +1,37 @@
+.topContainer{
+   text-align: center;
+    /* background-color: aqua; */
+   height: auto;
+   max-width: 1440px;
+   margin-top: 5rem;
+}
+
+.mySwiper{
+
+   width: 100%;
+   height: 70vh;
+}
+
+
+#ff
+{
+    margin-left: 280px;
+    padding: 5px;
+}
+.txt-form
+{
+text-align: center;
+display: flex;
+flex-direction: column;
+gap: 1rem;
+align-items: start;
+}
+
+.adr, .txt1-form
+{
+    color: rgba(0, 0, 0, 0.274);
+}
+
+.offercut{
+    text-decoration: line-through;
+}
