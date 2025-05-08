@@ -53,7 +53,7 @@ function Assistant() {
         <textarea
           rows="4"
           cols="50"
-          placeholder="Ask me about property prices or anything else..."
+          placeholder="Ask me about property prices or anything else......"
           value={userMessage}
           onChange={(e) => setUserMessage(e.target.value)}
         />
