@@ -3,11 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
- "scripts": {
-  "dev": "vite --host",
+"scripts": {
+  "dev": "vite",
   "build": "vite build",
-  "start": "vite preview --host"
+  "preview": "vite preview"
 }
+
 
 ,
   "engines": {
