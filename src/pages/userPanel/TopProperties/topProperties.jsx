@@ -8,10 +8,10 @@ function TopProperties() {
     const [category, setCategory] = useState([]);
 
     const imageMap = {
-        Residential: 'public/slidepics/slide3.jpg',
-        Commercial: 'public/slidepics/slide5.jpg',
-        Industrial: 'public/slidepics/slide7.jpg',
-        Agricultural: 'public/slidepics/slide2.jpg',
+        Residential: '/slidepics/slide3.jpg',
+        Commercial: '/slidepics/slide5.jpg',
+        Industrial: '/slidepics/slide7.jpg',
+        Agricultural: '/slidepics/slide2.jpg',
     };
 
     useEffect(() => {
