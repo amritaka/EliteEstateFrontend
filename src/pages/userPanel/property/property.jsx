@@ -61,8 +61,8 @@ const Property = ({ fetchProperties,he,wi }) => {
     setImagePreview(previewUrl);
   };
 
-  const handleSubmit = async () => {
-    // e.preventDefault();
+  const handleSubmit = async (e) => {
+     e.preventDefault();
     setLoding(true)
 
     const data = new FormData();
