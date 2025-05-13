@@ -111,9 +111,10 @@ export default function PropertyListing() {
                           Amount Offered
                           <p>Rs {d?.amountBid}</p>
                         </label>
+                        <br/>
                          <label>
                           Message
-                          <p>Rs {d?.message}</p>
+                          <p>{d?.message}</p>
                         </label>
                       </div>
                       <div className="contact">
